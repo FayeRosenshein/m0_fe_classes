@@ -3,23 +3,23 @@
 // it should have a color property, that is silver by default
 // it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning and end of the string
 
-// class Unicorn {
-//   constructor(name) {
-//     this.name = name;
-//     this.color = "silver";
-//     this.say = "*"
-//   }
-//   changeColor(newColor) {
-//     this.color = newColor;
-//   }
-//   changeSay(newSay) {
-//     this.say = "*" newSay "*";
-//   }
-// }
-// var unicorn1 = new Unicorn("Magic");
-// unicorn1.changeColor("pink");
-// unicorn1.changeSay("My name is")
-// console.log(`*${unicorn1.say} ${unicorn1.name}*`);
+class Unicorn {
+  constructor(name) {
+    this.name = name;
+    this.color = "silver";
+    this.say = "*"
+  }
+  changeColor(newColor) {
+    this.color = newColor;
+  }
+  changeSay(newSay) {
+    this.say = "*" newSay "*";
+  }
+}
+var unicorn1 = new Unicorn("Magic");
+unicorn1.changeColor("pink");
+unicorn1.changeSay("My name is")
+console.log(`*${unicorn1.say} ${unicorn1.name}*`);
 
 
 // Write a class called Vampire
